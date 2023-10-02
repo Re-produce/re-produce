@@ -1,6 +1,9 @@
 site_name: Re:Produce
 theme:
   name: material
+  favicon: photos/logo.png
+  logo: photos/logo.png
+
   features:
     - navigation.tabs
     - navigation.sections
