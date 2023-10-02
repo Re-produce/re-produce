@@ -3,8 +3,8 @@ theme:
   name: material
 palette:
     # try other colors from https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: blue
-    accent: blue
+    primary: #56AEFF
+    accent: #56AEFF
 features:
     # See more about the navigation at https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
     - navigation.tabs
