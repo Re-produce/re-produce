@@ -7,13 +7,17 @@ palette:
     # try other colors from https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: blue
     accent: blue
-font:
-    # See available fonts from https://fonts.google.com/
-    text: Arima Madurai
-    code: Roboto Mono
 features:
     # See more about the navigation at https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
     - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
 custom_dir: 'overrides'
 plugins:
   - search
