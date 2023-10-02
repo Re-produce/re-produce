@@ -1,7 +1,7 @@
 site_name: Re:Produce
 theme: 
   name: material
-palette:
+  palette:
     # try other colors from https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: #56AEFF
     accent: #56AEFF
