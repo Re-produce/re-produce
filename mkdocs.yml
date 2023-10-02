@@ -13,8 +13,8 @@ theme:
     - content.code.copy
   language: en
   palette:
-      primary: teal
-      accent: lime
+      primary: #56AEFF
+      accent: #56AEFF
 plugins:
   - social
 markdown_extensions:
