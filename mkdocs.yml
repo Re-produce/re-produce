@@ -5,7 +5,8 @@ theme:
   logo: images/logo.png
 
   features:
-
+    - navigation.tabs
+    - navigation.sections
     - toc.integrate
     - navigation.top
     - search.suggest
