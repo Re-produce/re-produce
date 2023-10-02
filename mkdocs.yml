@@ -1,12 +1,7 @@
-site_name: Re:Produce
-theme: 
+site_name: My Docs
+theme:
   name: material
-  palette:
-    # try other colors from https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: "White"
-    accent: #56AEFF
-features:
-    # See more about the navigation at https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+  features:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
@@ -16,14 +11,50 @@ features:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-custom_dir: 'overrides'
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
 plugins:
-  - search
- # - git-revision-date:
-  #    enabled_if_env: CI
-extra_css:
-  - https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css
-  - stylesheets/extra.css
+  - social
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC27P02dt561B1yehzyIWhyQ
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/abhishekkpandey1
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/profile.php?id=100000535670229
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/talkabhishekpandey/
+copyright: |
+  &copy; 2023 <a href="https://github.com/abhishekkpandey1"  target="_blank" rel="noopener">Abhishek Kumar</a>
 
 
 
