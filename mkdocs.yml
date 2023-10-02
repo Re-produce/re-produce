@@ -1,8 +1,6 @@
 site_name: Re:Produce
 theme: 
   name: material
-  favicon: images/favicon.png
-  logo: images/logo.png
 palette:
     # try other colors from https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: blue
